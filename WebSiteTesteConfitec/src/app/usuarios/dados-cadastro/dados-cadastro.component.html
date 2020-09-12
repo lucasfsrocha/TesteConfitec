@@ -1,0 +1,90 @@
+<style>
+ .error {
+  color: red;
+}
+.row{
+  padding: 7px;
+}
+</style>
+
+<div class="container mt-3">
+    <div class="row">
+  
+      <div class="col-md-8">
+        <h1><span class="badge badge-dark" id="header">Registro de Usuário</span></h1>
+        <hr>
+        <form [formGroup]="usuarioForm" (ngSubmit)="onSubmit()">
+  
+          <div class="form-group row">
+            <div class="col-md-4">
+              <label for="nome">Nome:</label>
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" formControlName="nome">
+              <div *ngIf="submitted && usuarioForm.controls.nome.errors" class="error">
+                <div *ngIf="usuarioForm.controls.nome.errors.required">O campo nome é de preenchimento obrigatório</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group row">
+            <div class="col-md-4">
+              <label for="sobrenome">Sobrenome:</label>
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" formControlName="sobrenome">
+              <div *ngIf="submitted && usuarioForm.controls.sobrenome.errors" class="error">
+                <div *ngIf="usuarioForm.controls.sobrenome.errors.required">O campo sobrenome é de preenchimento obrigatório</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group row">
+            <div class="col-md-4">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" formControlName="email">
+              <div *ngIf="submitted && usuarioForm.controls.email.errors" class="error">
+                <div *ngIf="usuarioForm.controls.email.errors.required">O campo email é de preenchimento obrigatório</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group row">
+            <div class="col-md-4">
+              <label for="datanascimento">Data de Nascimento:</label>
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" formControlName="datanascimento">
+              <div *ngIf="submitted && usuarioForm.controls.datanascimento.errors" class="error">
+                <div *ngIf="usuarioForm.controls.datanascimento.errors.required">O campo datanascimento é de preenchimento obrigatório</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group row">
+            <div class="col-md-4">
+              <label for="escolaridade">Escolaridade:</label>
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" formControlName="escolaridade">
+              <div *ngIf="submitted && usuarioForm.controls.escolaridade.errors" class="error">
+                <div *ngIf="usuarioForm.controls.escolaridade.errors.required">O campo escolaridade é de preenchimento obrigatório</div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-4">
+             
+            </div>
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-primary">Adicionar</button> &nbsp;&nbsp;
+              <input type="button" class="btn btn-warning" (click)="Cancelar()" value="Cancelar">
+          </div>
+            </div>
+        </form>
+      </div>
+  
+    </div>
+  </div>

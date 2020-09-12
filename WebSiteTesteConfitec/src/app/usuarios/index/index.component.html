@@ -1,0 +1,17 @@
+<div class="row justify-content-center mt-5">
+    <div class="jumbotron w-75">
+        <h3 class="text-center">Usuários</h3>
+        <hr/>
+        <div class="row">
+          <div class="col-md-6 col-sm-4 col-lg-8"></div>
+          <div class="col-md-6 col-sm-8 col-lg-4 align-content-end">
+            <button class="btn btn-sm btn-success button" (click)="adicionar()">Adicionar</button>&nbsp;&nbsp;
+            <button class="btn btn-sm btn-primary" (click)="editar()">Editar</button>&nbsp;&nbsp;
+            <button class="btn btn-sm btn-danger" (click)="excluir()">Excluir</button>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <ag-grid-angular [gridOptions]="gridOptions" [columnDefs]="columnDefs" [rowData]="rowData" (gridReady)="onGridReady($event)" class="ag-theme-alpine col-12" style="height: 500px"></ag-grid-angular>
+        </div>
+    </div>
+</div>
