@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.TesteConfitec.Data\API.TesteConfitec.Data.csproj" />
+    <ProjectReference Include="..\API.TesteConfitec.Models\API.TesteConfitec.Models.csproj" />
+  </ItemGroup>
+
+</Project>

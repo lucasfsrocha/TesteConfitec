@@ -1,0 +1,9 @@
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\bin\Debug\netcoreapp3.1\API.TesteConfitec.Models.deps.json
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\bin\Debug\netcoreapp3.1\API.TesteConfitec.Models.dll
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\bin\Debug\netcoreapp3.1\API.TesteConfitec.Models.pdb
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\obj\Debug\netcoreapp3.1\API.TesteConfitec.Models.csprojAssemblyReference.cache
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\obj\Debug\netcoreapp3.1\API.TesteConfitec.Models.AssemblyInfoInputs.cache
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\obj\Debug\netcoreapp3.1\API.TesteConfitec.Models.AssemblyInfo.cs
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\obj\Debug\netcoreapp3.1\API.TesteConfitec.Models.csproj.CoreCompileInputs.cache
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\obj\Debug\netcoreapp3.1\API.TesteConfitec.Models.dll
+D:\Dev\Storage\Fontes\Confitec\API.TesteConfitec\API.TesteConfitec.Models\obj\Debug\netcoreapp3.1\API.TesteConfitec.Models.pdb
